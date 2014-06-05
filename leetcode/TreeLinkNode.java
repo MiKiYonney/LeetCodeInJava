@@ -1,0 +1,11 @@
+package leetcode;
+/**
+ *  Definition for binary tree with next pointer.
+ * @author yonney
+ *
+ */
+public class TreeLinkNode {
+	   int val;
+	   TreeLinkNode left, right, next;
+	   TreeLinkNode(int x) { val = x; }
+}
